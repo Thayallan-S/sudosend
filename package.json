@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Thayallan-S/sudosend/issues"
   },
-  "homepage": "https://github.com/Thayallan-S/sudosend#readme"
+  "homepage": "https://github.com/Thayallan-S/sudosend#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "socket.io-client": "^2.3.0"
+  }
 }
