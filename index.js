@@ -11,8 +11,8 @@ let list = require('./ui/userlist');
 
 /** Server URL **/
 // const URL = 'https://chattt.glitch.me';
-const URL = 'http://localhost:3000';
-
+//const URL = 'http://localhost:3000';
+const URL = 'https://sudosend.herokuapp.com'
 // server connection
 const socket = io(URL);
 let channel, user;
