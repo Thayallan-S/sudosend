@@ -4,7 +4,7 @@ const blessed = require('blessed');
 let screen = blessed.screen({
 	smartCSR: true,
 	useBCE: true,
-	title: 'Chattt'
+	title: 'Sudosend'
 });
 
 // Quit on Ctrl-C, Esc or Q

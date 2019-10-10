@@ -12,7 +12,7 @@ let list = require('./ui/userlist');
 /** Server URL **/
 // const URL = 'https://chattt.glitch.me';
 //const URL = 'http://localhost:3000';
-const URL = 'https://sudosend.herokuapp.com'
+const URL = 'https://thayallan-s-sudosend-backend.glitch.me/'
 // server connection
 const socket = io(URL);
 let channel, user;
@@ -63,7 +63,7 @@ socket.on('connect', () => {
 			userJoin();
 		} else if (msg.type === 'joined') {
 			// update screen title
-			screen.title = `${user} on #${channel} - Chattt`;
+			screen.title = `${user} on #${channel} - Sudosend`;
 			screen.render();
 			// delete old lines
 			box.deleteAllLines();

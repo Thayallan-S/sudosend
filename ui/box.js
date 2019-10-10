@@ -10,7 +10,7 @@ let box = blessed.box({
 	padding: 0,
 	scrollable: true,
 	scrollbar: true,
-	content: `{center}{${colors.blue}-fg}****Welcome to {bold}chattt{/bold}!****{/${colors.blue}-fg}{/center}`,
+	content: `{center}{${colors.blue}-fg}****Welcome to {bold}Sudosend{/bold}!****{/${colors.blue}-fg}{/center}`,
 	tags: true,
 	style: {
 		fg: colors.base1,
